@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name mantis)(type KiCad)(uri ${KIPRJMOD}/mantis.pretty)(options "")(descr ""))
+)

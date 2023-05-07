@@ -1,0 +1,205 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 5700 3400 2    50   Input ~ 0
+X_ENDSTOP+
+Text GLabel 5200 3400 0    50   Input ~ 0
+X_ENDSTOP-
+Text GLabel 6200 4600 0    50   Input ~ 0
+HOTEND_THERMISTOR+
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 61305CF3
+P 4800 4600
+F 0 "J2" H 4880 4592 50  0000 L CNN
+F 1 "X_ENDSTOP" H 4880 4501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 4800 4600 50  0001 C CNN
+F 3 "~" H 4800 4600 50  0001 C CNN
+	1    4800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 6130602E
+P 4800 4900
+F 0 "J3" H 4880 4892 50  0000 L CNN
+F 1 "COOLING_FAN_1" H 4880 4801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 4800 4900 50  0001 C CNN
+F 3 "~" H 4800 4900 50  0001 C CNN
+	1    4800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 6130629C
+P 4800 5200
+F 0 "J4" H 4880 5192 50  0000 L CNN
+F 1 "HOTEND_FAN" H 4880 5101 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 4800 5200 50  0001 C CNN
+F 3 "~" H 4800 5200 50  0001 C CNN
+	1    4800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 613065FA
+P 6400 4300
+F 0 "J6" H 6480 4292 50  0000 L CNN
+F 1 "COOLING_FAN_2" H 6480 4201 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 6400 4300 50  0001 C CNN
+F 3 "~" H 6400 4300 50  0001 C CNN
+	1    6400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 61306A48
+P 6400 4600
+F 0 "J7" H 6480 4592 50  0000 L CNN
+F 1 "HOTEND_THERMISTOR" H 6480 4501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 6400 4600 50  0001 C CNN
+F 3 "~" H 6400 4600 50  0001 C CNN
+	1    6400 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 4900 0    50   Input ~ 0
+HOTEND_HEATER+
+Text GLabel 6200 5000 0    50   Input ~ 0
+HOTEND_HEATER-
+Text GLabel 4600 4700 0    50   Input ~ 0
+X_ENDSTOP+
+Text GLabel 4600 4600 0    50   Input ~ 0
+X_ENDSTOP-
+Text GLabel 6200 4700 0    50   Input ~ 0
+HOTEND_THERMISTOR-
+Text GLabel 4600 5300 0    50   Input ~ 0
+HOTEND_FAN+
+Text GLabel 4600 4900 0    50   Input ~ 0
+COOLING_FAN-
+Text GLabel 4600 5200 0    50   Input ~ 0
+HOTEND_FAN-
+Text GLabel 4600 5000 0    50   Input ~ 0
+COOLING_FAN+
+Text GLabel 6200 4400 0    50   Input ~ 0
+COOLING_FAN+
+Text GLabel 6200 4300 0    50   Input ~ 0
+COOLING_FAN-
+Text GLabel 4600 4400 0    50   Input ~ 0
+MAGPROBE+
+Text GLabel 4600 4300 0    50   Input ~ 0
+MAGPROBE-
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 61308BC7
+P 6400 5300
+F 0 "J9" H 6480 5292 50  0000 L CNN
+F 1 "EXTRUDER_STEPPER" H 6480 5201 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical" H 6400 5300 50  0001 C CNN
+F 3 "~" H 6400 5300 50  0001 C CNN
+	1    6400 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 5200 0    50   Input ~ 0
+STEPPER_A2
+Text GLabel 6200 5300 0    50   Input ~ 0
+STEPPER_A1
+Text GLabel 6200 5400 0    50   Input ~ 0
+STEPPER_B1
+Text GLabel 6200 5500 0    50   Input ~ 0
+STEPPER_B2
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 61304E70
+P 4800 4300
+F 0 "J1" H 4880 4292 50  0000 L CNN
+F 1 "MAGPROBE" H 4880 4201 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 4800 4300 50  0001 C CNN
+F 3 "~" H 4800 4300 50  0001 C CNN
+	1    4800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 61306E4B
+P 6400 4900
+F 0 "J8" H 6480 4892 50  0000 L CNN
+F 1 "HOTEND_HEATER" H 6480 4801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 6400 4900 50  0001 C CNN
+F 3 "~" H 6400 4900 50  0001 C CNN
+	1    6400 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 3900 0    50   Input ~ 0
+HOTEND_THERMISTOR-
+Text GLabel 5700 3900 2    50   Input ~ 0
+HOTEND_THERMISTOR+
+Text GLabel 5200 4000 0    50   Input ~ 0
+HOTEND_HEATER-
+Text GLabel 5200 3300 0    50   Input ~ 0
+MAGPROBE-
+Text GLabel 5700 3700 2    50   Input ~ 0
+STEPPER_A2
+Text GLabel 5200 3800 0    50   Input ~ 0
+STEPPER_B2
+Text GLabel 5200 3600 0    50   Input ~ 0
+HOTEND_FAN-
+Text GLabel 5200 3500 0    50   Input ~ 0
+COOLING_FAN-
+Text GLabel 5700 3600 2    50   Input ~ 0
+HOTEND_FAN+
+Text GLabel 5700 3500 2    50   Input ~ 0
+COOLING_FAN+
+Text GLabel 5200 3700 0    50   Input ~ 0
+STEPPER_A1
+Text GLabel 5700 3800 2    50   Input ~ 0
+STEPPER_B1
+Text GLabel 5700 4000 2    50   Input ~ 0
+HOTEND_HEATER+
+Text GLabel 5700 3300 2    50   Input ~ 0
+MAGPROBE+
+$Comp
+L Connector_Generic:Conn_02x08_Top_Bottom J5
+U 1 1 61300E73
+P 5400 3600
+F 0 "J5" H 5450 4117 50  0000 C CNN
+F 1 "Conn_02x08_Top_Bottom" H 5450 4026 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-1612_2x08_P3.00mm_Vertical" H 5400 3600 50  0001 C CNN
+F 3 "~" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61360144
+P 4600 5900
+F 0 "H1" H 4700 5946 50  0000 L CNN
+F 1 "MountingHole" H 4700 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 4600 5900 50  0001 C CNN
+F 3 "~" H 4600 5900 50  0001 C CNN
+	1    4600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6136060E
+P 5300 5900
+F 0 "H2" H 5400 5946 50  0000 L CNN
+F 1 "MountingHole" H 5400 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 5300 5900 50  0001 C CNN
+F 3 "~" H 5300 5900 50  0001 C CNN
+	1    5300 5900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
