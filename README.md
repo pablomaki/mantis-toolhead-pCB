@@ -4,10 +4,9 @@
 |:---------------------------|
 | This alternative design is functionally the same as the one in main branch but a different layout, shape & connection points on PCB. |
 
-![Alternative PCB design.](/images/alternative_pcb.jpg)
+![Alternative PCB design.](/images/alternative_pcb.png)
 
 ## Description
-
 This toolhead board was designed to be used with mantis toolhead mod for voron 3D printers.
 
 The input is 16 pin molex microfit connector and outputs include
