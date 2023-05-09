@@ -1,5 +1,11 @@
 # Mantis_Toolhead_PCB
 
+| ❗ NOTE          |
+|:---------------------------|
+| This alternative design is functionally the same as the one in main branch but a different layout, shape & connection points on PCB. |
+
+![Assembled PCB.](/images/alternative_pcb.jpg)
+
 ## Description
 
 This toolhead board was designed to be used with mantis toolhead mod for voron 3D printers.
